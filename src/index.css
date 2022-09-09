@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar {
+  background-color: #22668A;
+}
+
+.navbar-brand {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #22668A;
+}
+
+@media screen and (max-height: 1000px) {
+  .hasil {
+    height: 390px;
+  }
+}
+
+/* .overflow-auto::-webkit-scrollbar{
+  display: none;
+} */
