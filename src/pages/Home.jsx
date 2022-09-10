@@ -31,17 +31,6 @@ export default class Home extends Component {
   
   }
 
-  // componentDidUpdate(prevState) {
-  //   if(this.state.keranjangs !== prevState.keranjangs){
-  //       axios
-  //       .get(`${API_URL}/keranjangs`)
-  //       .then(res => {
-  //         const keranjangs = res.data
-  //         this.setState({keranjangs})
-  //       })
-  //   }
-  // }
-
 
   getListKerangjangs = () => {
     axios
